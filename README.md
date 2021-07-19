@@ -12,10 +12,10 @@ A C program to scan TCP ports on a given host. Useful for both offensive and def
 ## Capabilities
 pscan is able to take command line user input in the following format:
 
-./pscan \<host\> \<startPort\> - \<endPort\>
-\<host\> is an IP address from 0.0.0.0 - 255.255.255.255
-\<startPort\> is a port from 1 - 65535
-\<endPort\> is a port starting at or equal to \<startPort\>
+./pscan \<host\> \<startPort\> - \<endPort\> <br />
+\<host\> is an IP address from 0.0.0.0 - 255.255.255.255 <br />
+\<startPort\> is a port from 1 - 65535 <br />
+\<endPort\> is a port starting at or equal to \<startPort\><br />
     
 pscan then will loop through the port range provided and make a TCP socket connection to verify if the port is open or closed. The results are displayed at the end.
 
